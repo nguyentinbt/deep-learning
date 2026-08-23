@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dữ liệu hình ảnh, video
+data/
+datasets/
+
+# File weights của mô hình đã train
+models/
+*.pth
+*.h5
+*.pt
+*.onnx
+
+# File log của Weights & Biases hoặc Tensorboard
+wandb/
+logs/
+runs/

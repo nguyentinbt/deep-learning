@@ -1,0 +1,7 @@
+Bài 3. Xây dựng mô hình phân loại đánh giá nội dung video từ comment YouTube
+a) Load và trực quan hoá dữ liệu: Tải tập dữ liệu tại link https://www.kaggle.com/datasets/atifaliak/youtube-comments-dataset, hiển thị một số comment mẫu, kiểm tra phân phối nhãn, chia thành tập huấn luyện, kiểm thử và test.
+b) Xây dựng mô hình RNN đơn giản: Thiết kế mạng sử dụng Embedding layer, LSTM hoặc GRU cơ bản để xử lý comment, thêm các lớp fully connected với hàm kích hoạt Softmax hoặc Sigmoid tuỳ số lớp phân loại.
+c) Huấn luyện và đánh giá: Huấn luyện mô hình RNN trên tập huấn luyện, đánh giá trên tập kiểm thử và test. So sánh các chỉ số Accuracy, Loss, Confusion Matrix, Precision, Recall.
+d) Tối ưu mô hình: Thử nghiệm điều chỉnh learning rate, batch size, sử dụng kỹ thuật Early Stopping và Learning Rate Scheduling để cải thiện hiệu suất mô hình.
+e) Ứng dụng mô hình Transformer tiền huấn luyện: Sử dụng các mô hình BERT, Distil-BERT hoặc các phiên bản nhỏ hơn từ thư viện transformers (HuggingFace), áp dụng fine-tuning trên tập dữ liệu comment. So sánh kết quả với mô hình RNN truyền thống.
+f) So sánh và phân tích: Tổng hợp kết quả so sánh giữa mô hình RNN đơn giản và Transformer tiền huấn luyện về độ chính xác, tốc độ huấn luyện, khả năng tổng quát hóa và yêu cầu tính toán.

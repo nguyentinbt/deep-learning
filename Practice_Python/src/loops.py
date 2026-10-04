@@ -24,9 +24,10 @@ prediction_list = [0.1, 0.4, 0.5, 0.6, 0.7]
 new_labels = [1 if p > 0.6 else 0 for p in prediction_list]
 print(new_labels)
 
-
-
 pixels = [255, 127, 0, 50]
 
 normalized_pixels = [p/255 for p in pixels]
 print(normalized_pixels)
+
+
+endcoding = [1 if p> 0 else 0 for p in prediction]
